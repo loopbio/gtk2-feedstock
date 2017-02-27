@@ -1,0 +1,11 @@
+channels:
+  sources:
+    - loopbio
+    - conda-forge
+    - pkgw-forge  # alternatively, copy atk and gdk-pixbuf to our channel
+    - defaults
+  targets:
+    - [loopbio, main]
+
+github:
+  user_or_org: 'loopbio'
