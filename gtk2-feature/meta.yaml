@@ -1,0 +1,20 @@
+# Allows to install GTK2 dependent packages using system's GTK2
+
+package:
+  name: gtk2-feature
+  version: 1.0
+
+build:
+  number: 2
+  track_features:
+    - gtk2
+
+about:
+    home: http://www.gtk.org
+    license: LGPL version 2.1
+    summary: Multi-platform toolkit for creating graphical user interfaces. Metapackage for adding the gtk2 feature.
+
+extra:
+  recipe-url: https://github.com/loopbio/gtk2-feedstock
+  recipe-maintainers:
+    - sdvillal
