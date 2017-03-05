@@ -7,10 +7,8 @@
 # (gtk2 is the banana, and client X11 libraries is the gorilla)
 # into conda-forge like recipes.
 # At the moment most dependencies are taken from either conda-forge
-# or from Packages by Peter Williams (which we shamelessly copy
-# to our channel):
+# or from packages by Peter Williams:
 #   https://github.com/pkgw/conda-recipes
-#   https://anaconda.org/pkgw
 #   https://anaconda.org/pkgw-forge
 # Conda-forge is slowly getting many relevant packages.
 #
