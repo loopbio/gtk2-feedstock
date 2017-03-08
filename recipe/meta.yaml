@@ -27,7 +27,7 @@ source:
   sha256: 68c1922732c7efc08df4656a5366dcc3afdc8791513400dac276009b40954658
 
 build:
-  number: 1
+  number: 2
   skip: True  # [not linux]
   detect_binary_files_with_prefix: True
   track_features:
